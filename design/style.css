@@ -6,6 +6,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  background: #f7f7f7;
+}
+
 
 header {
   position: relative;
@@ -110,6 +114,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: white;
   width: 18rem;
   height: 8rem;
   -webkit-box-shadow: -9px 15px 21px -10px #c8cdce;
@@ -122,6 +127,7 @@ span {
 .card4 {
   width: 18rem;
   height: 8rem;
+    background: white;
   -webkit-box-shadow: -9px 15px 21px -10px #c8cdce;
   box-shadow: -9px 15px 21px -10px #c8cdce;
   border-color: hsl(212, 86%, 64%);
