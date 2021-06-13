@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top {
+  position: relative;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: hsl(0, 2%, 60%);
+}
+.bottom {
+  font-weight: 600;
+}
+span {
+  color: gray;
+}
+
+.headspan {
+  width: 33vw;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  // background: blue;
+  height: fit-content;
+
+  -o-object-position: center;
+  object-position: center;
+}
+.card1 {
+  background: white;
+  width: 18rem;
+  height: 8rem;
+  position: absolute;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 25px;
+  box-shadow: -9px 15px 21px -10px #c8cdce;
+  border-color: #ea5353;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 4px 0 0px 0px;
+}
+.card2 {
+  background: white;
+  width: 18rem;
+  height: 8rem;
+  position: absolute;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 201px;
+  /* left: 285px; */
+  -webkit-box-shadow: -9px 15px 21px -10px #c8cdce;
+  box-shadow: -9px 15px 21px -10px #c8cdce;
+  border-color: #ea5353;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 4px 0 0px 0px;
+}
+.card3 {
+  width: 18rem;
+  height: 8rem;
+  box-shadow: -9px 15px 21px -10px #c8cdce;
+  border-color: #ea5353;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 4px 0 0px 0px;
+}
+.container2 {
+}
+
+@media only screen and (min-width: 240px) and (max-width: 296px) {
+  .card1 {
+    width: 14rem;
+  }
+}
+@media only screen and (min-width: 297px) and (max-width: 316px) {
+  .card1 {
+    width: 16rem;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 390px) {
+  .top {
+    font-size: 7vw;
+  }
+  .bottom {
+    font-size: 7vw;
+  }
+  .headspan {
+    width: 72vw;
+  }
+}
+@media only screen and (min-width: 391px) and (max-width: 767px) {
+  .headspan {
+    width: 62vw;
+  }
+}
+@media only screen and (min-width: 887px) {
+}
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+  .headspan {
+    width: 37vw;
+  }
+}
